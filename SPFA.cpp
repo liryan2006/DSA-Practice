@@ -71,7 +71,7 @@ int main()
    push_Edge(1,4,15);
    push_Edge(4,2,-8);
    // push_Edge(3,1,-16); // Test negative cycles
-
+∑
    bool flag = SPFA();
 
    if(!flag)
