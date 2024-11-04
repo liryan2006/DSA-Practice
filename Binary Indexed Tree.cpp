@@ -91,7 +91,7 @@ int main()
          << getSum(BITree, 5);
 
     num[3] += 6;
-    updateBIT(BITree, LEN, 3, 6); //Update BIT for above change in arr[]
+    updateBIT(BITree, LEN, 3, 6); // Update BIT for above change in arr[]
 
     cout << "\nSum of elements in arr[0..5] after update is "
          << getSum(BITree, 5);
